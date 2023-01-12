@@ -16,7 +16,7 @@
     "_": { "items": 2 },
     "title": { "string": {} },
     "cssClassName": { "string": {} },
-    "widgets": { "hasMany": "Widget" }
+    "widgets": { "hasMany": "Widget" },
     "parameter": { "belongsTo": "Parameter" }
   },
   "Widget": {
