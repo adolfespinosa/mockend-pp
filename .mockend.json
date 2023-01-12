@@ -3,11 +3,27 @@
     "_": { "items": 1 },
     "alias": { "string": ["home-originals"] },
     "cssClassName": { "string": ["home-originals"] },
+    "parameters": { "string": ["{\"gameType\":\"originals\",\"gameCategory\":[],\"gameProvider\":[],\"operatorGameCategory\":[],\"totalGamesToDisplayOnMobile\":\"6\",\"totalGamesToDisplayOnDesktop\":\"12\",\"initialNumberOfGamesToListOnMobile\":\"3\",\"initialNumberOfGamesToListOnDesktop\":\"6\",\"gameThumbnailLayout\":\"portrait\",\"showProviders\":\"false\",\"showCategories\":\"false\",\"showSeeAll\":\"false\",\"redirectToPage\":[]}"]},
+    "widgets": { "hasMany": "Widget" }
+  },
+  "Slot": {
+    "_": { "items": 1 },
+    "alias": { "string": ["home-slots"] },
+    "cssClassName": { "string": ["home-slots"] },
+    "parameters": { "string": ["{\"gameType\":\"slots\",\"gameCategory\":[],\"gameProvider\":[],\"operatorGameCategory\":[],\"totalGamesToDisplayOnMobile\":\"6\",\"totalGamesToDisplayOnDesktop\":\"12\",\"initialNumberOfGamesToListOnMobile\":\"3\",\"initialNumberOfGamesToListOnDesktop\":\"6\",\"gameThumbnailLayout\":\"portrait\",\"showProviders\":\"false\",\"showCategories\":\"false\",\"showSeeAll\":\"false\",\"redirectToPage\":[]}"]},
+    "widgets": { "hasMany": "Widget" }
+  },
+  "Livecasino": {
+    "_": { "items": 1 },
+    "alias": { "string": ["home-live-casino"] },
+    "cssClassName": { "string": ["home-live-casino"] },
     "parameters": { "string": ["{\"gameType\":\"liveCasino\",\"gameCategory\":[],\"gameProvider\":[],\"operatorGameCategory\":[],\"totalGamesToDisplayOnMobile\":\"6\",\"totalGamesToDisplayOnDesktop\":\"12\",\"initialNumberOfGamesToListOnMobile\":\"3\",\"initialNumberOfGamesToListOnDesktop\":\"6\",\"gameThumbnailLayout\":\"portrait\",\"showProviders\":\"false\",\"showCategories\":\"false\",\"showSeeAll\":\"false\",\"redirectToPage\":[]}"]},
     "widgets": { "hasMany": "Widget" }
   },
   "Widget": {
     "_": { "items": 1 },
-    "original": { "belongsTo": "Original" }
+    "original": { "belongsTo": "Original" },
+    "slot": { "belongsTo": "Slot" },
+    "livecasino": { "belongsTo": "Livecasino" },
   }
 } 
