@@ -3,9 +3,10 @@
     "_": { "items": 1 },
     "alias": { "string": ["home-top-live-dealers"] },
     "cssClassName": { "string": ["home-top-live-dealers"] },
-    "parameters": { "hasMany": "Widget" }
+    "parameters": { "belongsTo": "Widget" }
   },
   "Widget": {
+    "_": { "items": 1 },
     "gameType": { "string": ["originals"] },
     "gameCategory": { "string": [] },
     "gameProvider": { "string": [] },
@@ -15,6 +16,6 @@
     "initialNumberGamesToListOnMobile": { "int": [3] },
     "initialNumberGamesToListOnDesktop": { "int": [6] },
     "gameThumbnailLayout": { "string": ["portrait"] },
-    "parameters": { "belongsTo": "Widgetsetting" }
+    "parameters": { "hasMany": "Widgetsetting" }
   }
 }
