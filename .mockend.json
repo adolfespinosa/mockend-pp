@@ -6,6 +6,6 @@
     "widgets": { "hasMany": "Widget" }
   },
   "Widget": {
-    "alias": { "belongsTo": "Alias" }
+    "title": { "belongsTo": "Alias" }
   }
 } 
