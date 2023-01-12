@@ -17,5 +17,14 @@
     "initialNumberGamesToListOnDesktop": { "int": [6] },
     "gameThumbnailLayout": { "string": ["portrait"] },
     "parameters": { "hasMany": "Widgetsetting" }
+  },
+  "Post": {
+    "_": { "items": 20 },
+    "title": { "string": {} },
+    "comments": { "hasMany": "Comment" }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": { "belongsTo": "Post" }
   }
 }
