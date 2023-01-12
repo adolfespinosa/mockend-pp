@@ -1,7 +1,7 @@
 {
   "Parameter": {
     "_": { "items": 2 },
-    "gameType": { "string": ["originals"] },
+    "gameType": { "string": {} },
     "gameCategory": { "string": [] },
     "gameProvider": { "string": [] },
     "OperatorGameCategory": { "string": [] },
