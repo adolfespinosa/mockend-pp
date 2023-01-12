@@ -1,7 +1,7 @@
 {
   "Widgetsetting": {
-    "alias": { "string": "home-top-live-dealers" },
-    "cssClassName": { "string": "home-top-live-dealers" },
+    "alias": { "string": ["home-top-live-dealers"] },
+    "cssClassName": { "string": ["home-top-live-dealers"] },
     "parameters": { "hasMany": "Widget" }
   },
   "Comment": {
