@@ -1,9 +1,23 @@
 {
+  "Parameter": {
+    "_": { "items": 2 },
+    "gameType": { "string": ["originals"] },
+    "gameCategory": { "string": [] },
+    "gameProvider": { "string": [] },
+    "OperatorGameCategory": { "string": [] },
+    "totalGamesToDisplayOnMobile": { "int": [6] },
+    "totalGamesToDisplayOnDesktop": { "int": [12] },
+    "initialNumberGamesToListOnMobile": { "int": [3] },
+    "initialNumberGamesToListOnDesktop": { "int": [6] },
+    "gameThumbnailLayout": { "string": ["portrait"] },
+    "widgettypes": { "hasMany": "Widgettype" }
+  },
   "Widgettype": {
     "_": { "items": 1 },
-    "title": { "string": ["home-top-live-dealers"] },
-    "cssClassName": { "string": ["home-top-live-dealers"] },
+    "title": { "string": {} },
+    "cssClassName": { "string": {} },
     "widgets": { "hasMany": "Widget" }
+    "parameter": { "belongsTo": "Parameter" }
   },
   "Widget": {
     "_": { "items": 1 },
