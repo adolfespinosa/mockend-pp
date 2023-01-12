@@ -1,5 +1,5 @@
 {
-  "Operatorgamecategorie": {
+  "Operator": {
     "_": { "items": 1 },
     "categoryDisplayName": { "string" : {} },
     "categoryId": { "string" : {} },
