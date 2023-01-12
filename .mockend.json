@@ -5,8 +5,16 @@
     "cssClassName": { "string": ["home-top-live-dealers"] },
     "parameters": { "hasMany": "Widget" }
   },
-  "Comment": {
-    "body": { "string": {} },
-    "post": { "belongsTo": "Post" }
+  "Widget": {
+    "gameType": { "string": ["originals"] },
+    "gameCategory": { "string": [] },
+    "gameProvider": { "string": [] },
+    "OperatorGameCategory": { "string": [] },
+    "totalGamesToDisplayOnMobile": { "int": [6] },
+    "totalGamesToDisplayOnDesktop": { "int": [12] },
+    "initialNumberGamesToListOnMobile": { "int": [3] },
+    "initialNumberGamesToListOnDesktop": { "int": [6] },
+    "gameThumbnailLayout": { "string": ["portrait"] },
+    "parameters": { "belongsTo": "Widgetsetting" }
   }
 }
