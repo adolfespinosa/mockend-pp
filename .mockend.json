@@ -1,23 +1,20 @@
 {
-  "Parameter": {
-    "_": { "items": 2 },
-    "gameType": { "string": {} },
-    "gameCategory": { "string": [] },
-    "gameProvider": { "string": [] },
-    "OperatorGameCategory": { "string": [] },
-    "totalGamesToDisplayOnMobile": { "int": [6] },
-    "totalGamesToDisplayOnDesktop": { "int": [12] },
-    "initialNumberGamesToListOnMobile": { "int": [3] },
-    "initialNumberGamesToListOnDesktop": { "int": [6] },
-    "gameThumbnailLayout": { "string": ["portrait"] },
-    "widgettypes": { "hasMany": "Widgettype" }
-  },
   "Widgettype": {
     "_": { "items": 2 },
     "title": { "string": {} },
     "cssClassName": { "string": {} },
     "widgets": { "hasMany": "Widget" },
-    "parameter": { "belongsTo": "Parameter" }
+    "parameters": {
+      "gameType": { "string": {} },
+      "gameCategory": { "string": [] },
+      "gameProvider": { "string": [] },
+      "OperatorGameCategory": { "string": [] },
+      "totalGamesToDisplayOnMobile": { "int": [6] },
+      "totalGamesToDisplayOnDesktop": { "int": [12] },
+      "initialNumberGamesToListOnMobile": { "int": [3] },
+      "initialNumberGamesToListOnDesktop": { "int": [6] },
+      "gameThumbnailLayout": { "string": ["portrait"] }
+    }
   },
   "Widget": {
     "_": { "items": 1 },
