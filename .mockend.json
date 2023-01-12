@@ -16,6 +16,7 @@
     "comments": { "hasMany": "Comment" }
   },
   "Comment": {
+    "_": { "items": 20 },
     "body": { "string": {} },
     "post": { "belongsTo": "Post" }
   }
