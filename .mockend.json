@@ -13,7 +13,7 @@
     "widgettypes": { "hasMany": "Widgettype" }
   },
   "Widgettype": {
-    "_": { "items": 1 },
+    "_": { "items": 2 },
     "title": { "string": {} },
     "cssClassName": { "string": {} },
     "widgets": { "hasMany": "Widget" }
