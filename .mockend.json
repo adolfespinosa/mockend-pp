@@ -5,7 +5,6 @@
   "Alias": {
     "_": { "items": 1 },
     "alias": { "string": ["home-top-live-dealers"] },
-    "cssClassName": { "string": ["home-top-live-dealers"] },
-    "parameters": { "belongsTo": "Parameter" }
-  },
+    "cssClassName": { "string": ["home-top-live-dealers"] }
+  }
 }
