@@ -1,23 +1,11 @@
 {
-  "Widgettype": {
-    "_": { "items": 2 },
-    "alias": { "string": {} },
-    "cssClassName": { "string": {} },
+  "Original": {
+    "alias": { "string": ["home-originals"] },
+    "cssClassName": { "string": ["home-originals"] },
     "parameters": { "string": ["{\"gameType\":\"liveCasino\",\"gameCategory\":[],\"gameProvider\":[],\"gamesPerRowOnMobile\":\"2\",\"totalGamesToDisplay\":\"10\",\"gamesPerRowOnDesktop\":\"5\",\"gameThumbnailLayout\":\"landscape\"}"]},
     "widgets": { "hasMany": "Widget" }
   },
   "Widget": {
-    "_": { "items": 10 },
-    "widgettype": { "belongsTo": "Widgettype" }
+    "original": { "belongsTo": "Original" }
   },
-   "Post": {
-    "_": { "items": 20 },
-    "title": { "string": {} },
-    "comments": { "hasMany": "Comment" }
-  },
-  "Comment": {
-    "_": { "items": 20 },
-    "body": { "string": {} },
-    "post": { "belongsTo": "Post" }
-  }
 } 
