@@ -4,7 +4,7 @@
     "title": { "string": {} },
     "cssClassName": { "string": {} },
     "widgets": { "hasMany": "Widget" },
-    "parameters": {
+    "parameters": { "string": {
       "gameType": { "string": {} },
       "gameCategory": { "string": [] },
       "gameProvider": { "string": [] },
@@ -14,6 +14,7 @@
       "initialNumberGamesToListOnMobile": { "int": [3] },
       "initialNumberGamesToListOnDesktop": { "int": [6] },
       "gameThumbnailLayout": { "string": ["portrait"] }
+      }
     }
   },
   "Widget": {
