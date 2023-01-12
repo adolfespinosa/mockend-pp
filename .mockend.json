@@ -1,30 +1,11 @@
 {
-  "Widgetsetting": {
+  "Widget": {
+    "alias": { "belongsTo": "Alias" }
+  },
+  "Alias": {
     "_": { "items": 1 },
     "alias": { "string": ["home-top-live-dealers"] },
     "cssClassName": { "string": ["home-top-live-dealers"] },
-    "parameters": { "belongsTo": "Widget" }
+    "parameters": { "belongsTo": "Parameter" }
   },
-  "Widget": {
-    "_": { "items": 1 },
-    "gameType": { "string": ["originals"] },
-    "gameCategory": { "string": [] },
-    "gameProvider": { "string": [] },
-    "OperatorGameCategory": { "string": [] },
-    "totalGamesToDisplayOnMobile": { "int": [6] },
-    "totalGamesToDisplayOnDesktop": { "int": [12] },
-    "initialNumberGamesToListOnMobile": { "int": [3] },
-    "initialNumberGamesToListOnDesktop": { "int": [6] },
-    "gameThumbnailLayout": { "string": ["portrait"] },
-    "parameters": { "hasMany": "Widgetsetting" }
-  },
-  "Post": {
-    "_": { "items": 20 },
-    "title": { "string": {} },
-    "comments": { "hasMany": "Comment" }
-  },
-  "Comment": {
-    "body": { "string": {} },
-    "post": { "belongsTo": "Post" }
-  }
 }
