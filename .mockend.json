@@ -6,6 +6,7 @@
     "widgets": { "hasMany": "Widget" }
   },
   "Widget": {
+    "body": { "string": {} },
     "widgettype": { "belongsTo": "Widgettype" }
   }
 } 
