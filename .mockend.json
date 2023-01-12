@@ -6,6 +6,6 @@
     "gameTypeId": { "string" : {} },
     "isAllProviders": { "boolean": {} },
     "providers": { "string" : [] },
-    "sortOrder": { "int" : {} },
+    "sortOrder": { "int" : {} }
   }
 } 
