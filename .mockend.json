@@ -24,6 +24,6 @@
     "_": { "items": 1 },
     "original": { "belongsTo": "Original" },
     "slot": { "belongsTo": "Slot" },
-    "livecasino": { "belongsTo": "Livecasino" },
+    "livecasino": { "belongsTo": "Livecasino" }
   }
 } 
