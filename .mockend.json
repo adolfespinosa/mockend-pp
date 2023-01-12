@@ -1,5 +1,6 @@
 {
   "Widgetsetting": {
+    "_": { "items": 1 }
     "alias": { "string": ["home-top-live-dealers"] },
     "cssClassName": { "string": ["home-top-live-dealers"] },
     "parameters": { "hasMany": "Widget" }
