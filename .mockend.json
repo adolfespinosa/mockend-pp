@@ -1,11 +1,13 @@
 {
   "Original": {
+    "_": { "items": 1 },
     "alias": { "string": ["home-originals"] },
     "cssClassName": { "string": ["home-originals"] },
     "parameters": { "string": ["{\"gameType\":\"liveCasino\",\"gameCategory\":[],\"gameProvider\":[],\"gamesPerRowOnMobile\":\"2\",\"totalGamesToDisplay\":\"10\",\"gamesPerRowOnDesktop\":\"5\",\"gameThumbnailLayout\":\"landscape\"}"]},
     "widgets": { "hasMany": "Widget" }
   },
   "Widget": {
+    "_": { "items": 1 },
     "original": { "belongsTo": "Original" }
   }
 } 
