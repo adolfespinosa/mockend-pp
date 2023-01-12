@@ -1,7 +1,7 @@
 {
   "Widgettype": {
     "_": { "items": 2 },
-    "alias": { "string": ["originals"] },
+    "alias": { "string": {} },
     "cssClassName": { "string": {} },
     "parameters": { "string": ["{\"gameType\":\"liveCasino\",\"gameCategory\":[],\"gameProvider\":[],\"gamesPerRowOnMobile\":\"2\",\"totalGamesToDisplay\":\"10\",\"gamesPerRowOnDesktop\":\"5\",\"gameThumbnailLayout\":\"landscape\"}"]},
     "widgets": { "hasMany": "Widget" },
