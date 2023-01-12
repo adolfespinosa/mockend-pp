@@ -6,7 +6,6 @@
     "_": { "items": 1 },
     "alias": { "string": ["home-top-live-dealers"] },
     "cssClassName": { "string": ["home-top-live-dealers"] },
-    "parameters": { "hasMany": "parameter" }
     "widget": { "belongsTo": "Widget" }
   }
 } 
