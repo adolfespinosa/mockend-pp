@@ -7,7 +7,7 @@
     "widgets": { "hasMany": "Widget" }
   },
   "Widget": {
-    "_": { "items": 2 },
+    "_": { "items": 10 },
     "widgettype": { "belongsTo": "Widgettype" }
   }
 } 
