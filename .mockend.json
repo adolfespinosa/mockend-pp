@@ -1,11 +1,11 @@
 {
-  "Alias": {
+  "Widgettype": {
     "_": { "items": 1 },
     "title": { "string": ["home-top-live-dealers"] },
     "cssClassName": { "string": ["home-top-live-dealers"] },
     "widgets": { "hasMany": "Widget" }
   },
   "Widget": {
-    "title": { "belongsTo": "Alias" }
+    "widgettype": { "belongsTo": "Widgettype" }
   }
 } 
