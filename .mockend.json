@@ -7,5 +7,5 @@
   },
   "Widget": {
     "original": { "belongsTo": "Original" }
-  },
+  }
 } 
